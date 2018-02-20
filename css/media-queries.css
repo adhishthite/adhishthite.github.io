@@ -242,11 +242,12 @@
 	#work_new ul {list-style-position: outside;}
 	
 	#work_new li {
-		letter-spacing: 2px;
 		line-height: 150%;
 		text-align: justify;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		font-family: 'opensans-regular', sans-serif;
 	}
 
 	#work_new .title {text-align: center;}
