@@ -224,6 +224,8 @@
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
 
+   #resume .ed-summary {text-align: center;}
+
    .bars { width: 100%; }
 
    /* Work Section
