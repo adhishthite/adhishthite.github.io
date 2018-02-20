@@ -56,34 +56,22 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #resume .main-col { padding-right: 5%; }
 
-   /* Testimonials Section
+    /* Work Section
    ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;      
-   }
+   #work_new h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #work_new .main-col { padding-right: 5%; }
 
-    /* Call to Action Section
+    /* Skills Section
    ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
+   #skills_new h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #skills_new .main-col { padding-right: 5%; }
 
-   /* Contact Section
-   ------------------------------------------------------------------- */
-   #contact .section-head { margin-bottom: 30px; }
-   #contact .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
+ 	/* Certificates Section
+   ------------------------------------------------------------------- */  
+   #certificates h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #certificates .main-col { padding-right: 5%; }
 
 
 }
@@ -235,46 +223,41 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
-      
+
    .bars { width: 100%; }
 
+   /* Work Section
+   --------------------------------------------------------------------- */
+   #work_new .header-col {
+		padding-top: 0;
+		margin-bottom: 48px;
+		text-align: center;
+	}
+	#work_new h1 { letter-spacing: 3px; }
+	#work_new .main-col { padding-right: 30px; }
+	#work_new h3, #work_new .info { text-align: center; }
 
-   /* Call To Action Section
-   /* ----------------------------------------------------------------- */
-   #call-to-action { text-align: center; }
-   #call-to-action h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #call-to-action h1 span { display: block; }
-   #call-to-action .header-col h1:before { content: none; }
-   #call-to-action p { font-size: 15px; }
-
-
-   /* Portfolio Section
-   /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
-   .popup-modal {	max-width: 85%; }
-
-
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
-   }
+	/* Skills Section
+   --------------------------------------------------------------------- */
+   #skills_new .header-col {
+		padding-top: 0;
+		margin-bottom: 48px;
+		text-align: center;
+	}
+	#skills_new h1 { letter-spacing: 3px; }
+	#skills_new .main-col { padding-right: 30px; }
+	#skills_new h3, #skills_new .info { text-align: center; }
+      
+   /* Certificates Section
+   --------------------------------------------------------------------- */
+   #certificates .header-col {
+		padding-top: 0;
+		margin-bottom: 48px;
+		text-align: center;
+	}
+	#certificates h1 { letter-spacing: 3px; }
+	#certificates .main-col { padding-right: 30px; }
+	#certificates h3, #certificates .info { text-align: center; }
 
    /* Control Nav */
    .flex-control-nav {
