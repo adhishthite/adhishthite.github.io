@@ -237,6 +237,18 @@
 	#work_new .main-col { padding-right: 30px; }
 	#work_new h3, #work_new .info { text-align: center; }
 
+	#work_new ul {list-style-position: outside;}
+	
+	#work_new li {
+		letter-spacing: 2px;
+		line-height: 150%;
+		text-align: justify;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#work_new .title {text-align: center;}
+
 	/* Skills Section
    --------------------------------------------------------------------- */
    #skills_new .header-col {
@@ -246,7 +258,7 @@
 	}
 	#skills_new h1 { letter-spacing: 3px; }
 	#skills_new .main-col { padding-right: 30px; }
-	#skills_new h3, #skills_new .info { text-align: center; }
+	#skills_new h3, #skills_new .info { text-align: center !important; }
       
    /* Certificates Section
    --------------------------------------------------------------------- */
@@ -258,6 +270,7 @@
 	#certificates h1 { letter-spacing: 3px; }
 	#certificates .main-col { padding-right: 30px; }
 	#certificates h3, #certificates .info { text-align: center; }
+	#certificates h4 { text-align: center; }
 
    /* Control Nav */
    .flex-control-nav {

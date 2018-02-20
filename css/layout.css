@@ -734,6 +734,10 @@ ul#nav li.current a {
 	margin-top: 6px;
 }
 
+#work_new ul {list-style-position: outside;}
+
+#work_new li {line-height: 150%;}
+
 
 /* ------------------------------------------------------------------ */
 
